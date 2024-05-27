@@ -45,7 +45,7 @@ func main() {
     password := os.Getenv("DB_PASSWORD")
     sid := os.Getenv("DB_SID")
     
-    q, err := Connect(oraaq.OracleAqJms,
+    q, err := ezQue.Connect(oraaq.OracleAqJms,
         oraaq.Queue("text_msg_queue",
             oraaq.LocatedAt(server, uint16(port)),
             oraaq.AuthenticatedWith(username, password),
