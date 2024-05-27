@@ -11,7 +11,7 @@ With ezQue, you can easily Enqueue/Dequeue messages from the queue. One importan
 You can get ezQue by using:
 
 ```sh
-go get github.com/pgvanniekerk/ezQue
+go get github.com/pgvanniekerk/ezQue@V0.1.0
 ```
 
 Ensure your Go project is using Go Modules (it will have a `go.mod` file in its root) and that your `GO111MODULE` environment variable is either `auto`, or `on`.
