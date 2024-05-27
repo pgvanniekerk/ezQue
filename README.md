@@ -25,8 +25,6 @@ package main
 
 import (
     "context"
-    "github.com/oracle/oci-go-sdk/common"
-    "github.com/oracle/oci-go-sdk/streaming"
     "time"
 
     "github.com/pgvanniekerk/ezQue"
