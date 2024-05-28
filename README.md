@@ -152,6 +152,7 @@ func main() {
     for i := 0; i < 10; i++ {
         // Create your message
         msg := q.NewMessage()
+	msg.SetText("Your message here")
         
         // Enqueue a message to the queue
         err := q.Enqueue(ctx, msg)
